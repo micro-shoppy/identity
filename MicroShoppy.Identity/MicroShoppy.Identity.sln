@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{181613B6-1B24-41FF-A7C1-FE270CC8F1A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EE451AE1-80B0-4CF2-A907-E91946768743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{95140F39-EBE3-4B40-8BF6-529BFA8A6E3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{42E2C58E-8B16-468C-A078-EA55FB055348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{617335A4-75F0-468E-AC64-A877A63B61D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroShoppy.Identity.Api", "src\api\MicroShoppy.Identity.Api\MicroShoppy.Identity.Api.csproj", "{DBFEA97D-BB40-452D-B2E4-18B29F3B0D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroShoppy.Identity.Infrastructure", "src\infrastructure\MicroShoppy.Identity.Infrastructure\MicroShoppy.Identity.Infrastructure.csproj", "{70F2AAE4-03BB-40E7-A396-C59372EB6CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroShoppy.Identity.Domain", "src\core\MicroShoppy.Identity.Domain\MicroShoppy.Identity.Domain.csproj", "{75EE178B-9A0B-41D9-AECB-4267E9987B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroShoppy.Identity.Application", "src\core\MicroShoppy.Identity.Application\MicroShoppy.Identity.Application.csproj", "{D5E287F5-1D1F-410C-875E-7AA35DA6E96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroShoppy.Identity.UnitTests", "tests\MicroShoppy.Identity.UnitTests\MicroShoppy.Identity.UnitTests.csproj", "{0F673A3F-49F9-46E5-8C49-F61755E7A357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroShoppy.Identity.IntegrationTests", "tests\MicroShoppy.Identity.IntegrationTests\MicroShoppy.Identity.IntegrationTests.csproj", "{72A13F6D-6446-4D62-A580-412C7B4AF513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFEA97D-BB40-452D-B2E4-18B29F3B0D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFEA97D-BB40-452D-B2E4-18B29F3B0D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFEA97D-BB40-452D-B2E4-18B29F3B0D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFEA97D-BB40-452D-B2E4-18B29F3B0D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70F2AAE4-03BB-40E7-A396-C59372EB6CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70F2AAE4-03BB-40E7-A396-C59372EB6CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70F2AAE4-03BB-40E7-A396-C59372EB6CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70F2AAE4-03BB-40E7-A396-C59372EB6CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EE178B-9A0B-41D9-AECB-4267E9987B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EE178B-9A0B-41D9-AECB-4267E9987B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EE178B-9A0B-41D9-AECB-4267E9987B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EE178B-9A0B-41D9-AECB-4267E9987B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E287F5-1D1F-410C-875E-7AA35DA6E96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E287F5-1D1F-410C-875E-7AA35DA6E96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E287F5-1D1F-410C-875E-7AA35DA6E96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E287F5-1D1F-410C-875E-7AA35DA6E96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F673A3F-49F9-46E5-8C49-F61755E7A357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F673A3F-49F9-46E5-8C49-F61755E7A357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F673A3F-49F9-46E5-8C49-F61755E7A357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F673A3F-49F9-46E5-8C49-F61755E7A357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A13F6D-6446-4D62-A580-412C7B4AF513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A13F6D-6446-4D62-A580-412C7B4AF513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A13F6D-6446-4D62-A580-412C7B4AF513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A13F6D-6446-4D62-A580-412C7B4AF513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95140F39-EBE3-4B40-8BF6-529BFA8A6E3E} = {181613B6-1B24-41FF-A7C1-FE270CC8F1A7}
+		{42E2C58E-8B16-468C-A078-EA55FB055348} = {181613B6-1B24-41FF-A7C1-FE270CC8F1A7}
+		{617335A4-75F0-468E-AC64-A877A63B61D0} = {181613B6-1B24-41FF-A7C1-FE270CC8F1A7}
+		{DBFEA97D-BB40-452D-B2E4-18B29F3B0D3D} = {95140F39-EBE3-4B40-8BF6-529BFA8A6E3E}
+		{70F2AAE4-03BB-40E7-A396-C59372EB6CCD} = {42E2C58E-8B16-468C-A078-EA55FB055348}
+		{75EE178B-9A0B-41D9-AECB-4267E9987B7C} = {617335A4-75F0-468E-AC64-A877A63B61D0}
+		{D5E287F5-1D1F-410C-875E-7AA35DA6E96A} = {617335A4-75F0-468E-AC64-A877A63B61D0}
+		{0F673A3F-49F9-46E5-8C49-F61755E7A357} = {EE451AE1-80B0-4CF2-A907-E91946768743}
+		{72A13F6D-6446-4D62-A580-412C7B4AF513} = {EE451AE1-80B0-4CF2-A907-E91946768743}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63409BCC-F2C5-4308-8193-3AB79EC707EF}
+	EndGlobalSection
+EndGlobal
